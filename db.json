@@ -1,0 +1,18 @@
+
+{
+    "task": [
+        {
+        "id": 1,
+         "name": "Cleaning duty",
+         "status": "finished"
+
+    },
+
+    {
+        "id": 2,
+         "name": "Cooking duty",
+         "status": "finished"
+
+    }
+]
+}
