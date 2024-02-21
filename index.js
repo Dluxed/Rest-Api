@@ -1,5 +1,5 @@
 import  express from "express";
-import fs from fs;
+import fs from "fs";
 import bodyParser from "body-parser";
 
 const app = express();
@@ -17,7 +17,7 @@ const readData = () => {
 
 const writeData = (data) => {
     try {
-        fs.writeFileSyn("./db.json", JSON.stringify(data));
+        fs.writeFileSync("./db.json", JSON.stringify(data));
     }catch (error) {
         console.log(error);
 }
